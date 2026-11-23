@@ -1,28 +1,21 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.5/staging' branch; Version is '6000.5.11f1 (5c3a1087d8e4) revision 6044176'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Channel LicenseClient-451495 doesn't exist
 OS: 'Windows 11  (10.0.26200) Education' Language: 'en' Physical Memory: 130789 MB
 BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-26T16:01:12Z
-[Licensing::Module] Successfully launched the LicensingClient (PId: 23300)
-
-COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Editor\Unity.exe
-[Licensing::Module] Licensing is not yet initialized.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-451495" at "2026-10-26T16:01:15.921165Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 23300, path: "C:/Program Files/Unity/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+Date: 2026-11-23T10:00:33Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-451495" at "2026-11-23T10:00:33.1223048Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 3544, path: "C:/Program Files/Unity/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              1016c40da02b438ea1e33fa76a89df71
-  Correlation Id:          9a4681d6c6a5bf00e766850b2f2edbd4
-  External correlation Id: 3808278152475449077
+  Session Id:              2389442f09d54dab806a869027c7858a
+  Correlation Id:          89ec840b4434b7f230ae892426461d19
+  External correlation Id: 8018157456758367990
   Machine Id:              VpdqbJdhCQzg1zj3R+DwAtQyX4c=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-451495" (connect: 2.91s, validation: 0.17s, handshake: 0.26s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-451495-notifications" at "2026-10-26T16:01:16.3542478Z"
-[Licensing::Module] Connected to LicensingClient (PId: 23300, launch time: 0.02, total connection time: 3.34s)
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-451495" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-451495-notifications" at "2026-11-23T10:00:33.1456654Z"
 [Licensing::Module] Error: Access token is unavailable; failed to update
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -30,11 +23,13 @@ C:\Program Files\Unity\Editor\Unity.exe
   Product: Unity Education
   Type: ULF
   Expiration: 2027-09-25T15:01:09Z
-[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] Licensing Background thread has ended after 3.38s
-[Licensing::Module] Licensing is initialized (took 2.84s).
-C:/Users/451495.LEEDS-ART/OneDrive - Leeds Arts University/Documents/Year 2/Project 1 - Rapid Prototyping/Rapid_Prototype_2/New Unity Project
+[Licensing::Module] Licensing Background thread has ended after 0.03s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/New Unity Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
@@ -72,16 +67,16 @@ C:/Users/451495.LEEDS-ART/OneDrive - Leeds Arts University/Documents/Year 2/Proj
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [3136]  Target information:
+Player connection [27576]  Target information:
 
-Player connection [3136]  * "[IP] 10.2.2.210 [Port] 55504 [Flags] 2 [Guid] 3473357960 [EditorId] 3473357960 [Version] 1048832 [Id] WindowsEditor(7,bw-drpgamed-11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [27576]  * "[IP] 10.2.2.210 [Port] 55504 [Flags] 2 [Guid] 3888621709 [EditorId] 3888621709 [Version] 1048832 [Id] WindowsEditor(7,bw-drpgamed-11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [3136] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [3136] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27576] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27576] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Package Manager] Connected to IPC stream "Upm-11924" after 0.0 seconds.
+[Package Manager] Connected to IPC stream "Upm-14920" after 0.0 seconds.
 [Licensing::Client] Successfully resolved entitlement details
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
@@ -90,10 +85,9 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Artifact Garbage Collection - Removed 1 unused hashed content files
 Initialize engine version: 6000.5.11f1 (5c3a1087d8e4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/451495.LEEDS-ART/OneDrive - Leeds Arts University/Documents/Year 2/Project 1 - Rapid Prototyping/Rapid_Prototype_2/New Unity Project/Assets
+[Subsystems] Discovering subsystems at path C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/New Unity Project/Assets
 [D3D12 Device Filter] Vendor Name: NVIDIA
 [D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 4090
 [D3D12 Device Filter] Driver Version: 32.0.16.1692
@@ -115,190 +109,1280 @@ Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
 CodeReloadManager initialized
 ImportWorker Server TCP listen port: 0
 AcceleratorClientConnectionCallback - disconnected - :0
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.168583 seconds.
+Registered in 0.150497 seconds.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.107 seconds
-Domain Reload Profiling: 2645ms
-	BeginReloadAssembly (193ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (3ms)
-	RebuildNativeTypeToScriptingClass (133ms)
-	initialDomainReloadingComplete (301ms)
-	LoadAllAssembliesAndSetupDomain (906ms)
-		LoadAssemblies (177ms)
-		AnalyzeDomain (861ms)
-			TypeCache.Refresh (860ms)
-				TypeCache.ScanAssembly (696ms)
-	FinalizeReload (1108ms)
+- Finished resetting the current domain, in  1.190 seconds
+Domain Reload Profiling: 2612ms
+	BeginReloadAssembly (177ms)
+		CreateAndSetChildDomain (9ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (132ms)
+	initialDomainReloadingComplete (275ms)
+	LoadAllAssembliesAndSetupDomain (834ms)
+		LoadAssemblies (165ms)
+		AnalyzeDomain (789ms)
+			TypeCache.Refresh (788ms)
+				TypeCache.ScanAssembly (633ms)
+	FinalizeReload (1191ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (76ms)
-			ProcessInitializeOnLoadMethodAttributes (924ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (1004ms)
 [Licensing::Client] Successfully resolved entitlement details
 Application.AssetDatabase Initial Refresh Start
-[Package Manager] Restoring resolved packages state from cache
+[Package Manager] Done resolving packages in 0.49 seconds
 [Licensing::Client] Successfully resolved entitlement details
 [Package Manager] Registered 38 packages:
   Built-in packages:
-    com.unity.multiplayer.center@1.0.1 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
-    com.unity.ugui@2.5.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.ugui@298cd2a5b9a6)
-    com.unity.modules.accessibility@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.accessibility)
-    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.adaptiveperformance)
-    com.unity.modules.ai@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.ai)
-    com.unity.modules.androidjni@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.androidjni)
-    com.unity.modules.animation@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.animation)
-    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.assetbundle)
-    com.unity.modules.audio@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.audio)
-    com.unity.modules.cloth@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.cloth)
-    com.unity.modules.director@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.director)
-    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.imageconversion)
-    com.unity.modules.imgui@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.imgui)
-    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.jsonserialize)
-    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.particlesystem)
-    com.unity.modules.physics@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.physics)
-    com.unity.modules.physics2d@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.physics2d)
-    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.physicscore2d)
-    com.unity.modules.screencapture@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.screencapture)
-    com.unity.modules.terrain@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.terrain)
-    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.terrainphysics)
-    com.unity.modules.tilemap@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.tilemap)
-    com.unity.modules.ui@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.ui)
-    com.unity.modules.uielements@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.uielements)
-    com.unity.modules.umbra@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.umbra)
-    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.unityanalytics)
-    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.unitywebrequest)
-    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
-    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
-    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
-    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.unitywebrequestwww)
-    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.vectorgraphics)
-    com.unity.modules.vehicles@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.vehicles)
-    com.unity.modules.video@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.video)
-    com.unity.modules.wind@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.wind)
-    com.unity.modules.xr@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.xr)
-    com.unity.modules.subsystems@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.subsystems)
-    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.ugui@2.5.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.ugui@298cd2a5b9a6)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.hierarchycore)
 [Subsystems] No new subsystems found in resolved package list.
-[Package Manager] Done registering packages in 0.01 seconds
+[Package Manager] Done registering packages in 0.00 seconds
+A meta data file (.meta) exists but its asset 'Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/RecommendationView' can't be found. When moving or deleting files outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
+Couldn't delete Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/RecommendationView.meta because it's in an immutable folder.
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
 Starting: C:\Program Files\Unity\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
-WorkingDir: C:/Users/451495.LEEDS-ART/OneDrive - Leeds Arts University/Documents/Year 2/Project 1 - Rapid Prototyping/Rapid_Prototype_2/New Unity Project
-ExitCode: 0 Duration: 0s86ms
-*** Tundra build success (0.06 seconds), 0 items updated, 231 evaluated
-AssetDatabase: script compilation time: 0.608019s
-Begin MonoManager ReloadAssembly
+WorkingDir: C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/New Unity Project
+ExitCode: 4 Duration: 1s152ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+*** Tundra requires additional run (1.10 seconds), 0 items updated, 187 evaluated
+Starting: C:\Program Files\Unity\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/New Unity Project
+ExitCode: 0 Duration: 1s184ms
+Starting: C:\Program Files\Unity\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/New Unity Project
+ExitCode: 3 Duration: 2s161ms
+Finished compiling graph: 234 nodes, 1972 flattened edges (1870 ToBuild, 18 ToUse), maximum node priority 104
+[ 69/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp2
+[126/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt
+[172/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.rsp2
+[173/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt
+[175/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InternalAPIEngineBridge.004.rsp2
+[176/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InternalAPIEngineBridge.004.UnityAdditionalFile.txt
+[177/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt
+[178/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp2
+[179/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.Analytics.rsp2
+[180/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.rsp2
+[181/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.UnityAdditionalFile.txt
+[182/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.Analytics.UnityAdditionalFile.txt
+[183/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.UnityAdditionalFile.txt
+[184/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp2
+[185/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt
+[186/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt
+[187/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp
+[188/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp2
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll (+2 others) [CacheMiss 4d0ec559942ec817c070a1c8a144950f00000000000000000000000000000006]
+[223/231    1s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll (+2 others)
+##### CommandLine
+"C:\Program Files\Unity\Editor\Data\DotNetSdk\dotnet.exe" exec "C:/Program Files/Unity/Editor/Data/DotNetSdk/sdk/8.0.318/Roslyn/bincore/csc.dll" /nostdlib /noconfig /shared "@Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp" "@Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp2"
+##### Contents of Library\Bee\artifacts\1900b0aE.dag\Unity.Multiplayer.Center.Editor.rsp
+-target:library
+-out:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll"
+-refout:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.ref.dll"
+-define:UNITY_6000_5_11
+-define:UNITY_6000_5
+-define:UNITY_6000
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:UNITY_2022_1_OR_NEWER
+-define:UNITY_2022_2_OR_NEWER
+-define:UNITY_2022_3_OR_NEWER
+-define:UNITY_2023_1_OR_NEWER
+-define:UNITY_2023_2_OR_NEWER
+-define:UNITY_2023_3_OR_NEWER
+-define:UNITY_6000_0_OR_NEWER
+-define:UNITY_6000_1_OR_NEWER
+-define:UNITY_6000_2_OR_NEWER
+-define:UNITY_6000_3_OR_NEWER
+-define:UNITY_6000_4_OR_NEWER
+-define:UNITY_6000_5_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_INCLUDE_TESTS
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_AUDIO_SCRIPTABLE_PIPELINE
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_UNITY_CONSENT
+-define:ENABLE_UNITY_CLOUD_IDENTIFIERS
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_EDITOR_GAME_SERVICES
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_MARSHALLING_TESTS
+-define:ENABLE_VIDEO
+-define:ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:ENABLE_ACCESSIBILITY_SCREEN_READER
+-define:TEXTCORE_1_0_OR_NEWER
+-define:EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_NVIDIA
+-define:ENABLE_AMD
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_CLOUD_SERVICES_ENGINE_DIAGNOSTICS
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+-define:PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER
+-define:PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION
+-define:PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS
+-define:PLATFORM_USES_VULKAN_OLD_SWAPCHAIN
+-define:USE_READ_ASYNC_MANAGED_API
+-define:ENABLE_MONO
+-define:NET_4_6
+-define:NET_UNITY_4_8
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
+-define:TEXTCORE_FONT_ENGINE_1_6_OR_NEWER
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-define:UNITY_EDITOR_ONLY_COMPILATION
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/Microsoft.Bcl.AsyncInterfaces.dll"
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/Microsoft.Extensions.Logging.Abstractions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Collections.Immutable.dll"
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Diagnostics.DiagnosticSource.dll"
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.IO.Hashing.dll"
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Reflection.Metadata.dll"
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Runtime.CompilerServices.Unsafe.dll"
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Text.Encodings.Web.dll"
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Text.Json.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/Unity.Scripting.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.AIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.AdaptivePerformanceModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.AssetComplianceModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.BuildProfileModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.ClothModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.ContentLoadModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.CoreBusinessMetricsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.EmbreeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.GIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.GenericRemoteModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.GraphToolkitModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.GraphicsStateCollectionSerializerModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.GridAndSnapModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.GridModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.HierarchyModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.LightingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.MathematicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.MediaModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.MultiplayerModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.PhysicsCore2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.PlayModeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.ProjectAuditorModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.PropertiesModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.QuickInstallModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.SafeModeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.ShaderBuildSettingsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.ShaderCompilationModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.ShaderFoundryModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.SketchUpModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.TreeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.U2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UIAutomationModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UIToolkitAuthoringModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.VFXModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.VectorGraphicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.VideoModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.XRModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AMDModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AdaptivePerformanceModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GraphicsStateCollectionSerializerModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HierarchyCoreModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HierarchyModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IdentifiersModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputForUIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InsightsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.MarshallingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.MathematicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.MultiplayerModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.NVIDIAModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsBackendPhysXModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsCore2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.RenderAs2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScriptingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ShaderVariantAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.U2DRuntimeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConsentModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VectorGraphicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+-analyzer:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/analyzers/dotnet/roslyn4.0/cs/Microsoft.Extensions.Logging.Generators.dll"
+-analyzer:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll"
+-analyzer:"C:/Program Files/Unity/Editor/Data/Tools/BuildPipeline/Unity.Analyzers.Common/Unity.Analyzers.Common.dll"
+-analyzer:"C:/Program Files/Unity/Editor/Data/Tools/BuildPipeline/Unity.Analyzers.LongLiving/Unity.Analyzers.LongLiving.dll"
+-analyzer:"C:/Program Files/Unity/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
+-analyzer:"C:/Program Files/Unity/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+-analyzer:"C:/Program Files/Unity/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Analytics/AnalyticsData.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Analytics/AnalyticsUtils.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Analytics/DebugAnalytics.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Analytics/MultiplayerCenterAnalytics.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Analytics/MultiplayerCenterAnalyticsFactory.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Analytics/OnboardingSectionAnalyticsProvider.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Features/PackageManagement.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/MultiplayerCenterWindow/MultiplayerCenterWindow.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/MultiplayerCenterWindow/RecommendationTabView.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/MultiplayerCenterWindow/RecommendationViewBottomBar.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/MultiplayerCenterWindow/TabGroup.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/MultiplayerCenterWindow/UI/QuestionSection.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/MultiplayerCenterWindow/UI/QuestionViewFactory.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/MultiplayerCenterWindow/UI/QuestionnaireView.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/MultiplayerCenterWindow/UI/StyleClasses.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/MultiplayerCenterWindow/UI/ViewUtils.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/OnBoarding/GettingStartedTabView.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/OnBoarding/QuickstartPackageHandling.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/OnBoarding/SectionsFinder.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Questionnaire/Logic.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Questionnaire/PresetData.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Questionnaire/QuestionnaireData.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Questionnaire/QuestionnaireEditor.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Questionnaire/QuestionnaireObject.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Questionnaire/UserChoicesObject.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Recommendations/PreReleaseHandling.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Recommendations/RecommendationAuthoringData.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Recommendations/RecommendationType.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Recommendations/RecommendationUtils.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Recommendations/RecommendationViewData.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Recommendations/RecommenderSystem.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Recommendations/RecommenderSystemData.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Recommendations/RecommenderSystemDataObject.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Recommendations/Scoring.cs"
+-langversion:9.0
+/deterministic
+/optimize+
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+/nowarn:0169
+/nowarn:0649
+/nowarn:0282
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+-warn:0
+/additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.UnityAdditionalFile.txt"
+##### Custom Environment Variables
+DOTNET_HOST_PATH=C:\Program Files\Unity\Editor\Data\DotNetSdk\dotnet.exe
+DOTNET_MULTILEVEL_LOOKUP=0
+##### ExitCode
+1
+##### Output
+Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(7,42): error CS0234: The type or namespace name 'RecommendationView' does not exist in the namespace 'Unity.Multiplayer.Center.Window.UI' (are you missing an assembly reference?)
+
+Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(18,9): error CS0246: The type or namespace name 'RecommendationView' could not be found (are you missing a using directive or an assembly reference?)
+*** Tundra build failed (2.14 seconds), 19 items updated, 231 evaluated
+## Script Compilation Error for: Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll (+2 others)
+## CmdLine: "C:\Program Files\Unity\Editor\Data\DotNetSdk\dotnet.exe" exec "C:/Program Files/Unity/Editor/Data/DotNetSdk/sdk/8.0.318/Roslyn/bincore/csc.dll" /nostdlib /noconfig /shared "@Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp" "@Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp2"
+## Output:
+Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(7,42): error CS0234: The type or namespace name 'RecommendationView' does not exist in the namespace 'Unity.Multiplayer.Center.Window.UI' (are you missing an assembly reference?)
+Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(18,9): error CS0246: The type or namespace name 'RecommendationView' could not be found (are you missing a using directive or an assembly reference?)
+
+Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(7,42): error CS0234: The type or namespace name 'RecommendationView' does not exist in the namespace 'Unity.Multiplayer.Center.Window.UI' (are you missing an assembly reference?)
+Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(18,9): error CS0246: The type or namespace name 'RecommendationView' could not be found (are you missing a using directive or an assembly reference?)
+AssetDatabase: script compilation time: 5.141033s
 Total cache size 43780924
-Total cache size after purge 43780924, took 00:00:00.0438648
+Total cache size after purge 43780924, took 00:00:00.0468978
+[ScriptCompilation] Requested script compilation because: Exiting safe mode
+Starting: C:\Program Files\Unity\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/New Unity Project
+## Script Compilation Error for: Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll (+2 others)
+## CmdLine: "C:\Program Files\Unity\Editor\Data\DotNetSdk\dotnet.exe" exec "C:/Program Files/Unity/Editor/Data/DotNetSdk/sdk/8.0.318/Roslyn/bincore/csc.dll" /nostdlib /noconfig /shared "@Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp" "@Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp2"
+## Output:
+Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(7,42): error CS0234: The type or namespace name 'RecommendationView' does not exist in the namespace 'Unity.Multiplayer.Center.Window.UI' (are you missing an assembly reference?)
+Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(18,9): error CS0246: The type or namespace name 'RecommendationView' could not be found (are you missing a using directive or an assembly reference?)
+
+Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(7,42): error CS0234: The type or namespace name 'RecommendationView' does not exist in the namespace 'Unity.Multiplayer.Center.Window.UI' (are you missing an assembly reference?)
+Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(18,9): error CS0246: The type or namespace name 'RecommendationView' could not be found (are you missing a using directive or an assembly reference?)
+ExitCode: 3 Duration: 0s187ms
+[209/231    0s] CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll
+[210/231    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.pdb
+[211/231    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.dll
+[212/231    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.UI.dll
+[213/231    0s] CopyFiles Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.004.pdb
+[214/231    0s] CopyFiles Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.004.dll
+[215/231    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.UI.pdb
+[216/231    0s] CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.pdb
+[217/231    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.dll
+[218/231    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+[219/231    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.Analytics.dll
+[220/231    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.Analytics.pdb
+[221/231    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+[222/231    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll (+2 others) [CacheMiss 4d0ec559942ec817c070a1c8a144950f00000000000000000000000000000006]
+[223/231    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll (+2 others)
+##### CommandLine
+"C:\Program Files\Unity\Editor\Data\DotNetSdk\dotnet.exe" exec "C:/Program Files/Unity/Editor/Data/DotNetSdk/sdk/8.0.318/Roslyn/bincore/csc.dll" /nostdlib /noconfig /shared "@Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp" "@Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp2"
+##### Contents of Library\Bee\artifacts\1900b0aE.dag\Unity.Multiplayer.Center.Editor.rsp
+-target:library
+-out:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll"
+-refout:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.ref.dll"
+-define:UNITY_6000_5_11
+-define:UNITY_6000_5
+-define:UNITY_6000
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:UNITY_2022_1_OR_NEWER
+-define:UNITY_2022_2_OR_NEWER
+-define:UNITY_2022_3_OR_NEWER
+-define:UNITY_2023_1_OR_NEWER
+-define:UNITY_2023_2_OR_NEWER
+-define:UNITY_2023_3_OR_NEWER
+-define:UNITY_6000_0_OR_NEWER
+-define:UNITY_6000_1_OR_NEWER
+-define:UNITY_6000_2_OR_NEWER
+-define:UNITY_6000_3_OR_NEWER
+-define:UNITY_6000_4_OR_NEWER
+-define:UNITY_6000_5_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_INCLUDE_TESTS
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_AUDIO_SCRIPTABLE_PIPELINE
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_UNITY_CONSENT
+-define:ENABLE_UNITY_CLOUD_IDENTIFIERS
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_EDITOR_GAME_SERVICES
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_MARSHALLING_TESTS
+-define:ENABLE_VIDEO
+-define:ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:ENABLE_ACCESSIBILITY_SCREEN_READER
+-define:TEXTCORE_1_0_OR_NEWER
+-define:EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_NVIDIA
+-define:ENABLE_AMD
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_CLOUD_SERVICES_ENGINE_DIAGNOSTICS
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+-define:PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER
+-define:PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION
+-define:PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS
+-define:PLATFORM_USES_VULKAN_OLD_SWAPCHAIN
+-define:USE_READ_ASYNC_MANAGED_API
+-define:ENABLE_MONO
+-define:NET_4_6
+-define:NET_UNITY_4_8
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
+-define:TEXTCORE_FONT_ENGINE_1_6_OR_NEWER
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-define:UNITY_EDITOR_ONLY_COMPILATION
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/Microsoft.Bcl.AsyncInterfaces.dll"
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/Microsoft.Extensions.Logging.Abstractions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Collections.Immutable.dll"
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Diagnostics.DiagnosticSource.dll"
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.IO.Hashing.dll"
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Reflection.Metadata.dll"
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Runtime.CompilerServices.Unsafe.dll"
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Text.Encodings.Web.dll"
+-r:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Text.Json.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/Unity.Scripting.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.AIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.AdaptivePerformanceModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.AssetComplianceModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.BuildProfileModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.ClothModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.ContentLoadModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.CoreBusinessMetricsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.EmbreeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.GIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.GenericRemoteModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.GraphToolkitModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.GraphicsStateCollectionSerializerModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.GridAndSnapModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.GridModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.HierarchyModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.LightingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.MathematicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.MediaModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.MultiplayerModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.PhysicsCore2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.PlayModeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.ProjectAuditorModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.PropertiesModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.QuickInstallModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.SafeModeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.ShaderBuildSettingsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.ShaderCompilationModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.ShaderFoundryModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.SketchUpModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.TreeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.U2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UIAutomationModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UIToolkitAuthoringModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.VFXModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.VectorGraphicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.VideoModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.XRModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AMDModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AdaptivePerformanceModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GraphicsStateCollectionSerializerModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HierarchyCoreModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HierarchyModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IdentifiersModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputForUIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InsightsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.MarshallingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.MathematicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.MultiplayerModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.NVIDIAModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsBackendPhysXModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsCore2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.RenderAs2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScriptingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ShaderVariantAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.U2DRuntimeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConsentModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VectorGraphicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+-analyzer:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/analyzers/dotnet/roslyn4.0/cs/Microsoft.Extensions.Logging.Generators.dll"
+-analyzer:"C:/Program Files/Unity/Editor/Data/BCLExtensions/TargetingPacks/netstandard2.1/analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll"
+-analyzer:"C:/Program Files/Unity/Editor/Data/Tools/BuildPipeline/Unity.Analyzers.Common/Unity.Analyzers.Common.dll"
+-analyzer:"C:/Program Files/Unity/Editor/Data/Tools/BuildPipeline/Unity.Analyzers.LongLiving/Unity.Analyzers.LongLiving.dll"
+-analyzer:"C:/Program Files/Unity/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
+-analyzer:"C:/Program Files/Unity/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+-analyzer:"C:/Program Files/Unity/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Analytics/AnalyticsData.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Analytics/AnalyticsUtils.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Analytics/DebugAnalytics.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Analytics/MultiplayerCenterAnalytics.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Analytics/MultiplayerCenterAnalyticsFactory.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Analytics/OnboardingSectionAnalyticsProvider.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Features/PackageManagement.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/MultiplayerCenterWindow/MultiplayerCenterWindow.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/MultiplayerCenterWindow/RecommendationTabView.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/MultiplayerCenterWindow/RecommendationViewBottomBar.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/MultiplayerCenterWindow/TabGroup.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/MultiplayerCenterWindow/UI/QuestionSection.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/MultiplayerCenterWindow/UI/QuestionViewFactory.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/MultiplayerCenterWindow/UI/QuestionnaireView.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/MultiplayerCenterWindow/UI/StyleClasses.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/MultiplayerCenterWindow/UI/ViewUtils.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/OnBoarding/GettingStartedTabView.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/OnBoarding/QuickstartPackageHandling.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/OnBoarding/SectionsFinder.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Questionnaire/Logic.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Questionnaire/PresetData.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Questionnaire/QuestionnaireData.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Questionnaire/QuestionnaireEditor.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Questionnaire/QuestionnaireObject.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Questionnaire/UserChoicesObject.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Recommendations/PreReleaseHandling.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Recommendations/RecommendationAuthoringData.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Recommendations/RecommendationType.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Recommendations/RecommendationUtils.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Recommendations/RecommendationViewData.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Recommendations/RecommenderSystem.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Recommendations/RecommenderSystemData.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Recommendations/RecommenderSystemDataObject.cs"
+"Library/PackageCache/com.unity.multiplayer.center@b860850997d0/Editor/Recommendations/Scoring.cs"
+-langversion:9.0
+/deterministic
+/optimize+
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+/nowarn:0169
+/nowarn:0649
+/nowarn:0282
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+-warn:0
+/additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.UnityAdditionalFile.txt"
+##### Custom Environment Variables
+DOTNET_HOST_PATH=C:\Program Files\Unity\Editor\Data\DotNetSdk\dotnet.exe
+DOTNET_MULTILEVEL_LOOKUP=0
+##### ExitCode
+1
+##### Output
+Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(7,42): error CS0234: The type or namespace name 'RecommendationView' does not exist in the namespace 'Unity.Multiplayer.Center.Window.UI' (are you missing an assembly reference?)
+
+Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(18,9): error CS0246: The type or namespace name 'RecommendationView' could not be found (are you missing a using directive or an assembly reference?)
+*** Tundra build failed (0.17 seconds), 15 items updated, 231 evaluated
+Total cache size 43780924
+Total cache size after purge 43780924, took 00:00:00.0234439
+Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.321 seconds
-Domain Reload Profiling: 618ms
-	BeginReloadAssembly (146ms)
-		DisableScriptedObjects (19ms)
-		CreateAndSetChildDomain (37ms)
+- Finished resetting the current domain, in  0.298 seconds
+Domain Reload Profiling: 602ms
+	BeginReloadAssembly (134ms)
+		DisableScriptedObjects (16ms)
+		CreateAndSetChildDomain (24ms)
 	RebuildCommonClasses (5ms)
 	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (111ms)
-		LoadAssemblies (106ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (4ms)
-			BuildScriptInfoCaches (5ms)
-	FinalizeReload (323ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (114ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (4ms)
+	FinalizeReload (299ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (63ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (62ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (3ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Starting new worker id: 0 with log in C:/Users/451495.LEEDS-ART/OneDrive - Leeds Arts University/Documents/Year 2/Project 1 - Rapid Prototyping/Rapid_Prototype_2/New Unity Project/Logs/AssetImportWorkerHW0.log
+		AwakeInstancesAfterBackupRestoration (24ms)
+Starting new worker id: 0 with log in C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/New Unity Project/Logs/AssetImportWorkerHW0.log
 
-Asset Pipeline Refresh (id=f7f5e41af04a6e244a899606c7c5999e): Total: 2.010 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+Asset Pipeline Refresh (id=f38da411d1250f241b3af6f53356c0b2): Total: 17.682 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
 	(Values over 0.05ms)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=1039 ms
-		Asset DB Callback time: managed=12 ms, native=24 ms
-		Scripting: domain reloads=1, domain reload time=316 ms, compile time=610 ms, other=6 ms
-		Project Asset Count: scripts=211, non-scripts=167
-		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Asset DB Process Time: managed=0 ms, native=10619 ms
+		Asset DB Callback time: managed=46 ms, native=525 ms
+		Scripting: domain reloads=1, domain reload time=1340 ms, compile time=5143 ms, other=6 ms
+		Project Asset Count: scripts=210, non-scripts=167
+		Asset File Changes: new=0, changed=0, moved=0, deleted=6
 		Scan Filter Count: 0
-	InvokePackagesCallback: 25.850ms
-	ApplyChangesToAssetFolders: 0.396ms
-	Scan: 58.522ms
-	Collect global state as custom dependencies: 7.081ms
-	CategorizeScriptCompilationAssets: 0.765ms
-	ProcessAssetsWithTransientArtifactChanges: 4.072ms
-	CategorizeAssets: 1.858ms
-	CompileScripts: 610.268ms
-	ImportOutOfDateAssets: 333.813ms (323.815ms without children)
-		UnloadImportedAssets: 0.095ms
-		ImportSchedulerStart: 9.854ms
-	PostProcessAllAssets: 12.437ms
-		MonoPostProcessAllAssets: 12.392ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.784ms
-			SyncVS.PostprocessSyncProject 0.895ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 0.629ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.495ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.169ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.131ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.104ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.052ms
-	UnloadStreamsBegin: 1.343ms
-	GenerateScriptTypeHashes: 0.263ms
-	GenerateScriptTypeSerializationHashes: 0.613ms
-	Untracked: 948.807ms
+	InvokePackagesCallback: 520.515ms
+	ApplyChangesToAssetFolders: 0.354ms
+	Scan: 49.063ms
+	Collect global state as custom dependencies: 8.634ms
+	OnSourceAssetsModified: 0.482ms
+	CategorizeScriptCompilationAssets: 0.736ms
+	ProcessAssetsWithTransientArtifactChanges: 3.923ms
+	CategorizeAssets: 1.938ms
+	CompileScripts: 5143.205ms
+	ImportOutOfDateAssets: 308.558ms (300.590ms without children)
+		UnloadImportedAssets: 0.092ms
+		ImportSchedulerStart: 7.830ms
+	PostProcessAllAssets: 47.578ms
+		VCAutoAddAssetPostprocess 1.475ms
+		WindowTitlePostprocess 0.123ms
+		MonoPostProcessAllAssets: 45.539ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 12.520ms
+			AssetPostprocessor.OnPostprocessAllAssets 9.362ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.629ms
+			AssetChangedListener.OnPostprocessAllAssets 4.581ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 3.245ms
+			SyncVS.PostprocessSyncProject 1.137ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.057ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.754ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.582ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.360ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.343ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.233ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.188ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.179ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.171ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.168ms
+			AssetEvents.OnPostprocessAllAssets 0.158ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.103ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.078ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.076ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.062ms
+	PostAssetChangesProfiler: 4.369ms
+	UnloadStreamsBegin: 1.306ms
+	GenerateScriptTypeHashes: 0.295ms
+	GenerateScriptTypeSerializationHashes: 0.650ms
+	Untracked: 11586.798ms
 
 Application.AssetDatabase Initial Refresh End
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Scanning for USB devices : 3.055ms
+Scanning for USB devices : 3.300ms
 Initializing Unity extensions:
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-New Unity Project
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Assets/Scenes/Scene.unity'
-	Deserialize:            39.352 ms
-	Integration:            90.228 ms
-	Integration of assets:  1.895 ms
-	Thread Wait Time:       0.003 ms
-	Total Operation Time:   131.478 ms
-Unloading 439 unused Assets / (0.5 MB). Loaded Objects now: 1390.
-Memory consumption went from 222.4 MB to 221.9 MB.
-Total: 4.233400 ms (FindLiveObjects: 0.069400 ms CreateObjectMapping: 0.023800 ms MarkObjects: 2.901500 ms  DeleteObjects: 1.236900 ms)
+	Deserialize:            42.685 ms
+	Integration:            91.724 ms
+	Integration of assets:  1.818 ms
+	Thread Wait Time:       0.350 ms
+	Total Operation Time:   136.577 ms
+Unloading 434 unused Assets / (0.6 MB). Loaded Objects now: 1385.
+Memory consumption went from 221.6 MB to 221.0 MB.
+Total: 4.076600 ms (FindLiveObjects: 0.068100 ms CreateObjectMapping: 0.022300 ms MarkObjects: 2.920300 ms  DeleteObjects: 1.064100 ms)
 
 [LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
 Worker ready: AssetImportWorkerHW0 0
-[LAYOUT] About to save layout C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\UserSettings\Layouts\default-6000.dwlt
 [LAYOUT] About to save layout C:/Users/451495.LEEDS-ART/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
 [MODES] ModeService[default].InitializeCurrentMode
 [MODES] ModeService[default].RaiseModeChanged(default, default)
 This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
 <RI> Initializing input.
 <RI> Input initialized.
-[Project] Loading completed in 13.228 seconds
-	Project init time: 				43.640 seconds
+[Project] Loading completed in 28.094 seconds
+	Project init time: 				48.625 seconds
 		Template init time: 		0.000 seconds
 		Package Manager init time: 		0.003 seconds
-		Asset Database init time: 		0.321 seconds
-		Global illumination init time: 	0.016 seconds
-		Assemblies load time: 			8.173 seconds
+		Asset Database init time: 		0.294 seconds
+		Global illumination init time: 	0.019 seconds
+		Assemblies load time: 			7.631 seconds
 		Unity extensions init time: 	0.001 seconds
-		Asset Database refresh time: 	2.010 seconds
-	Scene opening time: 			0.692 seconds
-##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1793030517416,"processId":11924,"projectLoad":13.227709699999999,"projectInit":43.640188568,"templateInit":0.0,"packageManagerInit":0.0031917,"assetDatabaseInit":0.3207076,"globalIlluminationInit":0.0163845,"assembliesLoad":8.172921,"unityExtensionsInit":0.0013573,"assetDatabaseRefresh":2.0096532,"sceneOpening":0.6924418}
-##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1793030517416,"processId":11924,"editorVersion":"6000.5.11f1 (5c3a1087d8e4)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+		Asset Database refresh time: 	17.682 seconds
+	Scene opening time: 			0.737 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1795428082589,"processId":14920,"projectLoad":28.0936487,"projectInit":48.624880278,"templateInit":0.0,"packageManagerInit":0.0027061,"assetDatabaseInit":0.293597,"globalIlluminationInit":0.0191911,"assembliesLoad":7.6306075,"unityExtensionsInit":0.0009319,"assetDatabaseRefresh":17.6824146,"sceneOpening":0.7370631}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1795428082589,"processId":14920,"editorVersion":"6000.5.11f1 (5c3a1087d8e4)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=d613787fa1f7b1443b418eef1a30ad87): Total: 0.012 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[MODES] ModeService[default].LoadModes
 Dynamic Batching is deprecated and will be removed in a future release. Use GPU Instancing instead. Disable Dynamic Batching in Project Settings > Player > Other Settings to remove this warning.
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -309,129 +1393,40 @@ UnityEngine.Debug:LogWarning (object)
 UnityEditor.PlayerSettingsBatchingWarning:WarnIfDynamicBatchingEnabled ()
 UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
 
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Created GICache directory at C:/Users/451495.LEEDS-ART/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.008s, timestamps: [50.231 - 50.240]
+Asset Pipeline Refresh (id=b675a738a06aca244b28d40b568f3964): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
 Start Indexing on Editor startup
 [Indexing] Starting Initial Indexing for Assets
-Created GICache directory at C:/Users/451495.LEEDS-ART/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.007s, timestamps: [44.968 - 44.975]
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-Starting new worker id: 1 with log in C:/Users/451495.LEEDS-ART/OneDrive - Leeds Arts University/Documents/Year 2/Project 1 - Rapid Prototyping/Rapid_Prototype_2/New Unity Project/Logs/AssetImportWorkerHW1.log
-[Worker0] Imported GUID: 87f4df18971add842ab00ee23b0e29ae - Path: Assets/Scripts/Scene01/Scene01Events.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ad401b787fd8ac2ed11f1cc83fbf1b92') in 0.061296 seconds
-[Worker0] Imported GUID: 09bf6b2821e4d7148b85d17e3809c85c - Path: Assets/Scenes/Scene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6ec3fdb68e70695bdd7a6e5be4eb86eb') in 0.0034502 seconds
+Starting new worker id: 1 with log in C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/New Unity Project/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 87f4df18971add842ab00ee23b0e29ae - Path: Assets/Scripts/Scene01/Scene01Events.cs - Importer: PreviewImporter -> (ImportResultId: 'f161dde50f60d661b52c24278776576b') in 0.0067326 seconds
+EditorHelper: Unable to use the external script editor. Trying the internal script editor now.
 Worker ready: AssetImportWorkerHW1 1
 TrimDiskCacheJob: Current cache size 0mb
-Asset Pipeline Refresh (id=918c78f9dd32df949a70db3ff0045b3a): Total: 0.018 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Reloading assemblies for play mode.
-Reloading assemblies after forced synchronous recompile.
-Begin MonoManager ReloadAssembly
+Asset Pipeline Refresh (id=56b7ed023d5698f47ae1b197c658e9cd): Total: 0.012 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Worker0] Imported GUID: 492825280222a28449aa034bcc7344f6 - Path: Assets/Scripts/TextCreator.cs - Importer: PreviewImporter -> (ImportResultId: '7da97e23433c24c8bb6a8f54b6e189c8') in 0.0016571 seconds
+EditorHelper: Unable to use the external script editor. Trying the internal script editor now.
+Asset Pipeline Refresh (id=696a262504acf034dabae262a014cd69): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Worker0] Imported GUID: df0857f6a11054383be91b1f8e1b5800 - Path: Packages/com.unity.multiplayer.center/package.json - Importer: PreviewImporter -> (ImportResultId: 'c4ed96ef5756384fce85a522bef228ab') in 0.0112987 seconds
+[Worker0] Imported GUID: 319b8889f363f5947acf209c17a94149 - Path: Packages/com.unity.ugui/package.json - Importer: PreviewImporter -> (ImportResultId: '96e208099ef90cd7ef6f7f0dd68399f3') in 0.0015889 seconds
 [Licensing::Client] Successfully resolved entitlement details
-Native extension for WindowsStandalone target not found
-ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.748 seconds
-Domain Reload Profiling: 1086ms
-	BeginReloadAssembly (232ms)
-		DisableScriptedObjects (74ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (6ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (63ms)
-		LoadAssemblies (66ms)
-		AnalyzeDomain (6ms)
-			TypeCache.Refresh (3ms)
-	FinalizeReload (748ms)
-		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (48ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
-			AfterProcessingInitializeOnLoad (3ms)
-		AwakeInstancesAfterBackupRestoration (372ms)
+Asset Pipeline Refresh (id=6f94917815661bb47aca5a5824e3a4f4): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=d3c02ec93adedbf41820e48c000c9578): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Request Asset Garbage Collect because used heap size increased from 221.3 MB to 479.4 MB, exceeding the threshold of 256.0 MB.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (17.1 MB). Loaded Objects now: 2461.
+Memory consumption went from 478.7 MB to 461.6 MB.
+Total: 9.949200 ms (FindLiveObjects: 0.146000 ms CreateObjectMapping: 0.021700 ms MarkObjects: 7.108600 ms  DeleteObjects: 2.672200 ms)
 
-Asset Pipeline Refresh (id=541c7edf674573946b27c6c91f98a04c): Total: 1.182 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
-	(Values over 0.05ms)
-	Summary:
-		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=783 ms
-		Asset DB Callback time: managed=26 ms, native=14 ms
-		Scripting: domain reloads=1, domain reload time=356 ms, compile time=2 ms, other=0 ms
-		Project Asset Count: scripts=211, non-scripts=167
-		Asset File Changes: new=0, changed=0, moved=0, deleted=0
-		Scan Filter Count: 0
-	InvokePackagesCallback: 1.340ms
-	ApplyChangesToAssetFolders: 0.172ms
-	Collect global state as custom dependencies: 0.572ms
-	ProcessAssetsWithTransientArtifactChanges: 6.976ms
-	CategorizeAssets: 1.365ms
-	CompileScripts: 1.507ms
-	ImportOutOfDateAssets: 751.206ms (749.108ms without children)
-		CollectScriptTypesHashes: 0.188ms
-		ReloadNativeAssets: 0.201ms
-		UnloadImportedAssets: 1.099ms
-		ImportSchedulerStart: 0.753ms
-	PostProcessAllAssets: 36.496ms
-		PostProcessCallbackCreateDeferredMaterials 0.461ms
-		ShaderAssetModifiedCallback 0.236ms
-		RaytracingShaderImportPostprocess 0.173ms
-		ComputeShaderImportPostprocess 0.149ms
-		SpeedTreeImporter.PostprocessAllAssets 0.128ms
-		AssemblyValidation.PostprocessAllAssets 0.072ms
-		LocalizationDatabase.AssetDatabasePostprocessCallback 0.071ms
-		BlockShaderImporter.PostprocessAllAssets 0.069ms
-		MonoPostProcessAllAssets: 24.882ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.783ms
-			AssetPostprocessor.OnPostprocessAllAssets 4.059ms
-			BuilderAssetPostprocessor.OnPostprocessAllAssets 3.697ms
-			AssetChangedListener.OnPostprocessAllAssets 1.683ms
-			TextAssetPostProcessor.OnPostprocessAllAssets 0.878ms
-			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.815ms
-			SyncVS.PostprocessSyncProject 0.761ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.624ms
-			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.360ms
-			AudioMixerPostprocessor.OnPostprocessAllAssets 0.185ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 0.183ms
-			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.180ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.175ms
-			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.152ms
-			AssetEvents.OnPostprocessAllAssets 0.134ms
-			SpeedTreePostProcessor.OnPostprocessAllAssets 0.105ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.100ms
-			ConfigAssetsTracker.OnPostprocessAllAssets 0.095ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.094ms
-			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.090ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.064ms
-	PostAssetChangesProfiler: 4.081ms
-	UnloadStreamsBegin: 0.960ms
-	GenerateScriptTypeHashes: 0.432ms
-	GenerateScriptTypeSerializationHashes: 0.900ms
-	Untracked: 373.236ms
-
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            1.929 ms
-	Integration:            14.073 ms
-	Integration of assets:  0.004 ms
-	Thread Wait Time:       0.006 ms
-	Total Operation Time:   16.012 ms
-[Licensing::Client] Successfully resolved entitlement details
-Asset Pipeline Refresh (id=e974b2c04a233c14d85d765ec851a632): Total: 0.010 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Temp/__Backupscenes/0.backup'
-	Deserialize:            1.332 ms
-	Integration:            6.756 ms
-	Integration of assets:  0.002 ms
-	Thread Wait Time:       0.009 ms
-	Total Operation Time:   8.099 ms
-Unloading 284 unused Assets / (91.3 KB). Loaded Objects now: 2311.
-Memory consumption went from 423.3 MB to 423.2 MB.
-Total: 5.048000 ms (FindLiveObjects: 0.106600 ms CreateObjectMapping: 0.026000 ms MarkObjects: 4.826600 ms  DeleteObjects: 0.087900 ms)
-
-[Licensing::Client] Successfully resolved entitlement details
-Asset Pipeline Refresh (id=59983c2a7b28fc647a3cb30adb21e710): Total: 0.041 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-MonoPathRemapper: Attempts to remap: 4487; Successful remaps: 1490
+MonoPathRemapper: Attempts to remap: 5608; Successful remaps: 1520
 Serialized file version minimum: 23, current 23
-[LAYOUT] About to save layout C:\Users\451495.LEEDS-ART\OneDrive - Leeds Arts University\Documents\Year 2\Project 1 - Rapid Prototyping\Rapid_Prototype_2\New Unity Project\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\UserSettings\Layouts\default-6000.dwlt
 [LAYOUT] About to save layout C:/Users/451495.LEEDS-ART/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+AcceleratorClientConnectionCallback - disconnected - :0
+Importing 'GUID: 00000000000000004000000000000000 - Path: ProjectSettings/ProjectSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000004000000000000000' -> (Import Result ID: '38814a4707681c74909df1811f8bd876') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=276a810dac73e1f29404d5e5f692e214 DependenciesID=4f07617681b6b9b53b8c2560bc30e0de StaticDependenciesID=647bf4af9dc7aac39de01210a43fea9b 
+Asset Pipeline Refresh (id=faad5afad73aac340bc2bc58a61ce558): Total: 0.026 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 [Physics::Module] Cleanup current backend.
 [Physics::Module] Id: 0xf2b8ea05
 Input System module state changed to: ShutdownInProgress.
@@ -446,4 +1441,4 @@ CodeReloadManager destroyed
 Checking for leaked weakptr:
   Found no leaked weakptrs.
 [Package Manager] Server process was shutdown
-##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1793031747529,"processId":11924,"allocatedMemory":47309224,"memoryLabels":[{"Default":176468},{"Permanent":15516},{"NewDelete":67221},{"Thread":4206200},{"Manager":50952},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":852952},{"Material":24},{"GfxDevice":62072},{"GfxThread":3072},{"Animation":68040},{"Audio":1544},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":104920},{"Input":42840},{"JobScheduler":256},{"TextLib":40150},{"Mono":48},{"ScriptingNativeRuntime":674964},{"BaseObject":1621960},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":4001},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":10121},{"StaticString":3808},{"Utility":2676122},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":8869},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"CloudService":7352},{"WebRequest":4676},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33044368},{"Camera":4801},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":728},{"Hierarchy":1176},{"UIElements":1028192},{"CoreStats":13688},{"Identifiers":6768},{"Gui":1070150},{"EditorUtility":248481},{"VersionControl":8},{"Undo":931},{"AssetDatabase":743395},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":31010},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"HubClient":848},{"LocalIPC":350},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3496},{"Windowing":456},{"Licensing":12758},{"AssetReference":32},{"IPCStream":7664}]}
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1795428350282,"processId":14920,"allocatedMemory":47984496,"memoryLabels":[{"Default":189798},{"Permanent":15516},{"NewDelete":69981},{"Thread":4206200},{"Manager":51432},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":851408},{"Material":24},{"GfxDevice":62744},{"GfxThread":3072},{"Animation":15544},{"Audio":1544},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":132864},{"Input":42840},{"JobScheduler":256},{"TextLib":46450},{"Mono":48},{"ScriptingNativeRuntime":707732},{"BaseObject":1621960},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":57507},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":9873},{"StaticString":3808},{"Utility":2676078},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":14869},{"ScriptManager":96},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"CloudService":7208},{"WebRequest":8069},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33055328},{"Camera":23593},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":728},{"Hierarchy":1176},{"UIElements":1459512},{"CoreStats":13688},{"Identifiers":6768},{"Gui":1070152},{"EditorUtility":290394},{"VersionControl":8},{"Undo":931},{"AssetDatabase":770411},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":31010},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"HubClient":848},{"LocalIPC":350},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3496},{"Windowing":456},{"Licensing":12758},{"AssetReference":32},{"IPCStream":7664}]}
