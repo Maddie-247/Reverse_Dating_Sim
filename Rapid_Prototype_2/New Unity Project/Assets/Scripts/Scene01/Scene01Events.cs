@@ -1,332 +1,238 @@
-using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+using System.Text;
+
+[System.Serializable]
+public class DialogueChoice
+{
+    public string choiceText;
+    public int targetLineIndex;
+}
+
+[System.Serializable]
+public class DialogueLine
+{
+    public string speakerName;
+    [TextArea(3, 5)] public string text;
+    public Sprite portraitSprite;
+
+    [Header("Branching (Optional)")]
+    public bool endDialogueAfterThisLine;
+    public int nextLineOverride = -1;
+    public List<DialogueChoice> choices;
+}
 
 public class Scene01Events : MonoBehaviour
 {
+    [Header("UI Components")]
+    public CanvasGroup dialoguePanelGroup;
+    public TextMeshProUGUI nameBox;
+    public TextMeshProUGUI textBox;
+    public Image portraitDisplay;
 
-    public GameObject fadeScreenIn;
-    public GameObject Player;
-    public GameObject LoveInterest1;
-    public GameObject textBox;
-    [SerializeField] GameObject charName;
+    [Header("Choice UI")]
+    public Transform choiceButtonContainer;
+    public GameObject choiceButtonPrefab;
 
-    [SerializeField] string textToSpeak;
-    [SerializeField] int currentTextLength;
-    [SerializeField] int textLength;
-    [SerializeField] GameObject mainTextObject;
+    [Header("Settings")]
+    public List<DialogueLine> dialogueLines;
+    public float typingSpeed = 0.04f;
 
-    [SerializeField] GameObject nextButton;
-    [SerializeField] GameObject option1;
-    [SerializeField] GameObject option2;
-    [SerializeField] GameObject option1text;
-    [SerializeField] GameObject option2text;
-    [SerializeField] int eventPos = 0;
-
-    [SerializeField] GameObject option3;
-    [SerializeField] GameObject option4;
-    [SerializeField] GameObject option3text;
-    [SerializeField] GameObject option4text;
-
-    public Slider loveMetre;
-    
-
-
-    void Update()
-    {
-        textLength = TextCreator.charCount;
-    }
+    private Coroutine dialogueCoroutine;
+    private int currentLineIndex = 0;
+    private bool isLineComplete = false;
+    private bool skipRequested = false;
+    private bool isWaitingForChoice = false;
+    private bool isDialogueStarted = false;
 
     void Start()
     {
-        loveMetre.value = 0f;
-        StartCoroutine(EventStarter());
+        SetUIVisibility(false);
+        ClearUI();
     }
 
-    IEnumerator EventStarter()
+    void Update()
     {
-        //event 0
-        //variables need to be set to false for delay to work
-        Player.SetActive(false);
-        LoveInterest1.SetActive(false);
-        textBox.SetActive(false);
-        mainTextObject.SetActive(false);
-        nextButton.SetActive(false);
-        option1.SetActive(false);
-        option2.SetActive(false);
-        option1text.SetActive(false);
-        option2text.SetActive(false);
-
-        option3.SetActive(false);
-        option4.SetActive(false);
-        option3text.SetActive(false);
-        option4text.SetActive(false);
-        //loveMetre.SetActive(false);
-
-
-        //setting delays for player to appear
-        yield return new WaitForSeconds(2);
-        fadeScreenIn.SetActive(false);
-        Player.SetActive(true);
-        yield return new WaitForSeconds(2);
-
-        //player text 
-        mainTextObject.SetActive(true);
-        textBox.SetActive(true);
-        textToSpeak = "text goes here";
-        textBox.GetComponent<TMPro.TMP_Text>().text = textToSpeak;
-        currentTextLength = textToSpeak.Length;
-        TextCreator.runTextPrint = true;
-        yield return new WaitForSeconds(0.05f);
-        yield return new WaitForSeconds(1);
-        yield return new WaitUntil(() => textLength == currentTextLength);
-        yield return new WaitForSeconds(0.5f);
-
-        nextButton.SetActive(true);
-        eventPos = 1;
-
-    }
-
-    IEnumerator EventOne()
-    {
-        //event 1
-        nextButton.SetActive(false);
-        option1.SetActive(false);
-        option2.SetActive(false);
-        option1text.SetActive(false);
-        option2text.SetActive(false);
-        //loveMetre.SetActive(false);
-
-        textBox.SetActive(true);
-        LoveInterest1.SetActive(true);
-        //loveMetre.SetActive(true);
-        charName.GetComponent<TMPro.TMP_Text>().text = "Love Interest";
-
-        textToSpeak = "love interest text goes here";
-        textBox.GetComponent<TMPro.TMP_Text>().text = textToSpeak;
-        currentTextLength = textToSpeak.Length;
-        TextCreator.runTextPrint = true;
-        yield return new WaitForSeconds(0.05f);
-        yield return new WaitForSeconds(1);
-        yield return new WaitUntil(() => textLength == currentTextLength);
-        yield return new WaitForSeconds(0.5f);
-
-        option1.SetActive(true);
-        option2.SetActive(true);
-        option1text.SetActive(true);
-        option2text.SetActive(true);
-        option1text.GetComponent<TMPro.TMP_Text>().text = "heyy";
-        option2text.GetComponent<TMPro.TMP_Text>().text = "go away";
-
-        eventPos = 2;
-
-    }
-
-    IEnumerator Option1Seq()
-    {
-        option1.SetActive(false);
-        option2.SetActive(false);
-        option1text.SetActive(false);
-        option2text.SetActive(false);
-
-        loveMetre.value = 0f;
-
-        textBox.SetActive(true);
-        LoveInterest1.SetActive(true);
-        //loveMetre.SetActive(true);
-        charName.GetComponent<TMPro.TMP_Text>().text = "Love Interest";
-
-        textToSpeak = "idk what to write here";
-        textBox.GetComponent<TMPro.TMP_Text>().text = textToSpeak;
-        currentTextLength = textToSpeak.Length;
-        TextCreator.runTextPrint = true;
-        yield return new WaitForSeconds(0.05f);
-        yield return new WaitForSeconds(1);
-        yield return new WaitUntil(() => textLength == currentTextLength);
-        yield return new WaitForSeconds(0.5f);
-
-
-
-    }
-
-    IEnumerator Option2Seq()
-    {
-        option1.SetActive(false);
-        option2.SetActive(false);
-        option1text.SetActive(false);
-        option2text.SetActive(false);
-
-        loveMetre.value = 2f;
-
-        textBox.SetActive(true);
-        LoveInterest1.SetActive(true);
-        //loveMetre.SetActive(true);
-        charName.GetComponent<TMPro.TMP_Text>().text = "Love Interest";
-
-        textToSpeak = "well that was mean";
-        textBox.GetComponent<TMPro.TMP_Text>().text = textToSpeak;
-        currentTextLength = textToSpeak.Length;
-        TextCreator.runTextPrint = true;
-        yield return new WaitForSeconds(0.05f);
-        yield return new WaitForSeconds(1);
-        yield return new WaitUntil(() => textLength == currentTextLength);
-        yield return new WaitForSeconds(0.5f);
-
-        nextButton.SetActive(true);
-        eventPos = 3;
-
-    }
-
-    IEnumerator EventThree()
-    {
-        nextButton.SetActive(false);
-        option3.SetActive(false);
-        option4.SetActive(false);
-        option3text.SetActive(false);
-        option4text.SetActive(false);
-
-        loveMetre.value = 2f;
-
-        textBox.SetActive(true);
-        LoveInterest1.SetActive(true);
-        //loveMetre.SetActive(true);
-        charName.GetComponent<TMPro.TMP_Text>().text = "Love Interest";
-
-        textToSpeak = "why'd you have to say it like that";
-        textBox.GetComponent<TMPro.TMP_Text>().text = textToSpeak;
-        currentTextLength = textToSpeak.Length;
-        TextCreator.runTextPrint = true;
-        yield return new WaitForSeconds(0.05f);
-        yield return new WaitForSeconds(1);
-        yield return new WaitUntil(() => textLength == currentTextLength);
-        yield return new WaitForSeconds(0.5f);
-
-        option3.SetActive(true);
-        option4.SetActive(true);
-        option3text.SetActive(true);
-        option4text.SetActive(true);
-        option3text.GetComponent<TMPro.TMP_Text>().text = "sorry just in a bad mood";
-        option4text.GetComponent<TMPro.TMP_Text>().text = "im serious just leave me alone";
-
-    }
-
-    IEnumerator Option3Seq()
-    {
-        option1.SetActive(false);
-        option2.SetActive(false);
-        option1text.SetActive(false);
-        option2text.SetActive(false);
-
-        loveMetre.value = 1f;
-
-        textBox.SetActive(true);
-        LoveInterest1.SetActive(true);
-        //loveMetre.SetActive(true);
-        charName.GetComponent<TMPro.TMP_Text>().text = "Love Interest";
-
-        textToSpeak = "Awwwe, that's okay";
-        textBox.GetComponent<TMPro.TMP_Text>().text = textToSpeak;
-        currentTextLength = textToSpeak.Length;
-        TextCreator.runTextPrint = true;
-        yield return new WaitForSeconds(0.05f);
-        yield return new WaitForSeconds(1);
-        yield return new WaitUntil(() => textLength == currentTextLength);
-        yield return new WaitForSeconds(0.5f);
-
-    }
-
-IEnumerator Option4Seq()
-    {
-        eventPos = 4;
-
-        option3.SetActive(false);
-        option4.SetActive(false);
-        option3text.SetActive(false);
-        option4text.SetActive(false);
-        nextButton.SetActive(true);
-
-        loveMetre.value = 5f;
-
-        textBox.SetActive(true);
-        LoveInterest1.SetActive(true);
-        //loveMetre.SetActive(true);
-        charName.GetComponent<TMPro.TMP_Text>().text = "Love Interest";
-
-        textToSpeak = "FINE";
-        textBox.GetComponent<TMPro.TMP_Text>().text = textToSpeak;
-        currentTextLength = textToSpeak.Length;
-        TextCreator.runTextPrint = true;
-        yield return new WaitForSeconds(0.05f);
-        yield return new WaitForSeconds(1);
-        yield return new WaitUntil(() => textLength == currentTextLength);
-        yield return new WaitForSeconds(0.5f);
-    }    
-    
-    IEnumerator EventFour()
-    {
-        nextButton.SetActive(false);
-        option3.SetActive(false);
-        option4.SetActive(false);
-        option3text.SetActive(false);
-        option4text.SetActive(false);
-
-        loveMetre.value = 5f;
-
-        textBox.SetActive(true);
-        LoveInterest1.SetActive(true);
-        //loveMetre.SetActive(true);
-        charName.GetComponent<TMPro.TMP_Text>().text = "Love Interest";
-
-        textToSpeak = "I'm leaving then";
-        textBox.GetComponent<TMPro.TMP_Text>().text = textToSpeak;
-        currentTextLength = textToSpeak.Length;
-        TextCreator.runTextPrint = true;
-        yield return new WaitForSeconds(0.05f);
-        yield return new WaitForSeconds(1);
-        yield return new WaitUntil(() => textLength == currentTextLength);
-        yield return new WaitForSeconds(0.5f);
-    }
-
-
-
-     void NextButton()
-    {
-        if (eventPos == 1)
+        if (!isDialogueStarted)
         {
-            StartCoroutine(EventOne());
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                StartDialogue();
+            }
+            return;
         }
 
-        if (eventPos == 3)
+        if (isWaitingForChoice) return;
+
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            StartCoroutine(EventThree());
+            if (!isLineComplete)
+            {
+                skipRequested = true;
+            }
+            else
+            {
+                AdvanceDialogue();
+            }
+        }
+    }
+
+    void StartDialogue()
+    {
+        if (dialogueLines != null && dialogueLines.Count > 0)
+        {
+            isDialogueStarted = true;
+            currentLineIndex = 0;
+
+            SetUIVisibility(true);
+
+            dialogueCoroutine = StartCoroutine(PlayDialogueRoutine());
+        }
+    }
+
+    IEnumerator PlayDialogueRoutine()
+    {
+        StringBuilder stringBuilder = new StringBuilder();
+        DialogueLine currentLine = dialogueLines[currentLineIndex];
+
+        if (nameBox != null)
+        {
+            nameBox.text = currentLine.speakerName;
         }
 
-        if (eventPos == 4)
+        if (portraitDisplay != null)
         {
-            StartCoroutine(EventFour());
+            portraitDisplay.sprite = currentLine.portraitSprite;
+            portraitDisplay.gameObject.SetActive(currentLine.portraitSprite != null);
         }
 
+        textBox.text = "";
+        stringBuilder.Clear();
+        isLineComplete = false;
+        skipRequested = false;
+
+        for (int j = 0; j < currentLine.text.Length; j++)
+        {
+            if (skipRequested)
+            {
+                textBox.text = currentLine.text;
+                break;
+            }
+            stringBuilder.Append(currentLine.text[j]);
+            textBox.text = stringBuilder.ToString();
+            yield return new WaitForSeconds(typingSpeed);
+        }
+
+        isLineComplete = true;
+
+        if (currentLine.choices != null && currentLine.choices.Count > 0)
+        {
+            DisplayChoices(currentLine);
+        }
     }
 
-    public void Option1()
+    void DisplayChoices(DialogueLine currentLine)
     {
-        StartCoroutine(Option1Seq());
+        isWaitingForChoice = true;
+
+        foreach (Transform child in choiceButtonContainer)
+        {
+            Destroy(child.gameObject);
+        }
+
+        foreach (DialogueChoice choice in currentLine.choices)
+        {
+            GameObject newButton = Instantiate(choiceButtonPrefab, choiceButtonContainer);
+            TextMeshProUGUI buttonText = newButton.GetComponentInChildren<TextMeshProUGUI>();
+            if (buttonText != null) buttonText.text = choice.choiceText;
+
+            Button btnComponent = newButton.GetComponent<Button>();
+            if (btnComponent != null)
+            {
+                btnComponent.onClick.AddListener(() => OnChoiceSelected(choice.targetLineIndex));
+            }
+        }
     }
 
-    public void Option2()
+    void OnChoiceSelected(int targetLineIndex)
     {
-        StartCoroutine(Option2Seq());
+        isWaitingForChoice = false;
+
+        foreach (Transform child in choiceButtonContainer)
+        {
+            Destroy(child.gameObject);
+        }
+
+        currentLineIndex = targetLineIndex;
+
+        if (currentLineIndex >= 0 && currentLineIndex < dialogueLines.Count)
+        {
+            if (dialogueCoroutine != null) StopCoroutine(dialogueCoroutine);
+            dialogueCoroutine = StartCoroutine(PlayDialogueRoutine());
+        }
+        else
+        {
+            EndDialogue();
+        }
     }
 
-    public void Option3()
+    void AdvanceDialogue()
     {
-        StartCoroutine(Option3Seq());
+        DialogueLine currentLine = dialogueLines[currentLineIndex];
+
+        if (currentLine.endDialogueAfterThisLine)
+        {
+            EndDialogue();
+            return;
+        }
+
+        if (currentLine.nextLineOverride != -1)
+        {
+            currentLineIndex = currentLine.nextLineOverride;
+        }
+        else
+        {
+            currentLineIndex++;
+        }
+
+        if (currentLineIndex < dialogueLines.Count)
+        {
+            if (dialogueCoroutine != null) StopCoroutine(dialogueCoroutine);
+            dialogueCoroutine = StartCoroutine(PlayDialogueRoutine());
+        }
+        else
+        {
+            EndDialogue();
+        }
     }
 
-    public void Option4()
+    void EndDialogue()
     {
-        StartCoroutine(Option4Seq());
+        isDialogueStarted = false;
+
+        ClearUI();
+        SetUIVisibility(false);
+
+        Debug.Log("Stopped Speaking");
     }
 
+    void ClearUI()
+    {
+        if (textBox != null) textBox.text = "";
+        if (nameBox != null) nameBox.text = "";
+        if (portraitDisplay != null) portraitDisplay.gameObject.SetActive(false);
+    }
+
+    void SetUIVisibility(bool visible)
+    {
+        if (dialoguePanelGroup != null)
+        {
+            dialoguePanelGroup.alpha = visible ? 1f : 0f;
+            dialoguePanelGroup.blocksRaycasts = visible;
+            dialoguePanelGroup.interactable = visible;
+        }
+    }
 }

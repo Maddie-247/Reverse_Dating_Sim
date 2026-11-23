@@ -433,6 +433,7 @@
 -analyzer:"C:/Program Files/Unity/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/Scripts/Prototype/PrototypeEvents.cs"
 "Assets/Scripts/Scene01/Scene01Events.cs"
 "Assets/Scripts/TextCreator.cs"
 -langversion:9.0

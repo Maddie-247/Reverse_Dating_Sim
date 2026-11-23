@@ -1,21 +1,28 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.5/staging' branch; Version is '6000.5.11f1 (5c3a1087d8e4) revision 6044176'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Channel LicenseClient-451495 doesn't exist
 OS: 'Windows 11  (10.0.26200) Education' Language: 'en' Physical Memory: 130789 MB
 BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-11-23T10:00:33Z
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-451495" at "2026-11-23T10:00:33.1223048Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 3544, path: "C:/Program Files/Unity/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+Date: 2026-11-23T10:05:56Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 30772)
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-451495" at "2026-11-23T10:05:56.6344859Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 30772, path: "C:/Program Files/Unity/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              2389442f09d54dab806a869027c7858a
-  Correlation Id:          89ec840b4434b7f230ae892426461d19
-  External correlation Id: 8018157456758367990
+  Session Id:              03564b941f934f37a9413bbcecd3c8c8
+  Correlation Id:          75dee0e11c9a4e2ceaea8824c67c97a3
+  External correlation Id: 5316571673468425584
   Machine Id:              VpdqbJdhCQzg1zj3R+DwAtQyX4c=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-451495" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-451495-notifications" at "2026-11-23T10:00:33.1456654Z"
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-451495" (connect: 0.16s, validation: 0.18s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-451495-notifications" at "2026-11-23T10:05:56.8331478Z"
+[Licensing::Module] Connected to LicensingClient (PId: 30772, launch time: 0.01, total connection time: 0.36s)
 [Licensing::Module] Error: Access token is unavailable; failed to update
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -23,12 +30,10 @@ Date: 2026-11-23T10:00:33Z
   Product: Unity Education
   Type: ULF
   Expiration: 2027-09-25T15:01:09Z
-[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] Licensing Background thread has ended after 0.03s
-
-COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Editor\Unity.exe
+[Licensing::Module] Licensing Background thread has ended after 0.39s
+[Licensing::Module] Licensing is initialized (took 0.28s).
 C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/New Unity Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
@@ -67,16 +72,16 @@ C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [27576]  Target information:
+Player connection [16880]  Target information:
 
-Player connection [27576]  * "[IP] 10.2.2.210 [Port] 55504 [Flags] 2 [Guid] 3888621709 [EditorId] 3888621709 [Version] 1048832 [Id] WindowsEditor(7,bw-drpgamed-11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16880]  * "[IP] 10.2.2.210 [Port] 55504 [Flags] 2 [Guid] 1950605873 [EditorId] 1950605873 [Version] 1048832 [Id] WindowsEditor(7,bw-drpgamed-11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [27576] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [27576] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16880] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16880] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Package Manager] Connected to IPC stream "Upm-14920" after 0.0 seconds.
+[Package Manager] Connected to IPC stream "Upm-27956" after 0.0 seconds.
 [Licensing::Client] Successfully resolved entitlement details
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
@@ -109,38 +114,38 @@ Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 CodeReloadManager initialized
 ImportWorker Server TCP listen port: 0
 AcceleratorClientConnectionCallback - disconnected - :0
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.150497 seconds.
+Registered in 0.000914 seconds.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.190 seconds
-Domain Reload Profiling: 2612ms
-	BeginReloadAssembly (177ms)
-		CreateAndSetChildDomain (9ms)
-	RebuildCommonClasses (4ms)
-	RebuildNativeTypeToScriptingClass (132ms)
-	initialDomainReloadingComplete (275ms)
-	LoadAllAssembliesAndSetupDomain (834ms)
-		LoadAssemblies (165ms)
-		AnalyzeDomain (789ms)
-			TypeCache.Refresh (788ms)
-				TypeCache.ScanAssembly (633ms)
-	FinalizeReload (1191ms)
+- Finished resetting the current domain, in  0.320 seconds
+Domain Reload Profiling: 629ms
+	BeginReloadAssembly (80ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (3ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (75ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (116ms)
+	FinalizeReload (322ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (75ms)
-			ProcessInitializeOnLoadMethodAttributes (1004ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (61ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
 [Licensing::Client] Successfully resolved entitlement details
 Application.AssetDatabase Initial Refresh Start
-[Package Manager] Done resolving packages in 0.49 seconds
+[Package Manager] Restoring resolved packages state from cache
 [Licensing::Client] Successfully resolved entitlement details
 [Package Manager] Registered 38 packages:
   Built-in packages:
@@ -183,40 +188,12 @@ Application.AssetDatabase Initial Refresh Start
     com.unity.modules.subsystems@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.subsystems)
     com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.hierarchycore)
 [Subsystems] No new subsystems found in resolved package list.
-[Package Manager] Done registering packages in 0.00 seconds
+[Package Manager] Done registering packages in 0.01 seconds
 A meta data file (.meta) exists but its asset 'Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/RecommendationView' can't be found. When moving or deleting files outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
 Couldn't delete Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/RecommendationView.meta because it's in an immutable folder.
-[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
 Starting: C:\Program Files\Unity\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
 WorkingDir: C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/New Unity Project
-ExitCode: 4 Duration: 1s152ms
-Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
-*** Tundra requires additional run (1.10 seconds), 0 items updated, 187 evaluated
-Starting: C:\Program Files\Unity\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
-WorkingDir: C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/New Unity Project
-ExitCode: 0 Duration: 1s184ms
-Starting: C:\Program Files\Unity\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
-WorkingDir: C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/New Unity Project
-ExitCode: 3 Duration: 2s161ms
-Finished compiling graph: 234 nodes, 1972 flattened edges (1870 ToBuild, 18 ToUse), maximum node priority 104
-[ 69/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp2
-[126/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt
-[172/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.rsp2
-[173/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt
-[175/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InternalAPIEngineBridge.004.rsp2
-[176/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.InternalAPIEngineBridge.004.UnityAdditionalFile.txt
-[177/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt
-[178/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp2
-[179/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.Analytics.rsp2
-[180/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.rsp2
-[181/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.UnityAdditionalFile.txt
-[182/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.Analytics.UnityAdditionalFile.txt
-[183/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.UnityAdditionalFile.txt
-[184/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp2
-[185/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt
-[186/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt
-[187/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp
-[188/231    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp2
+ExitCode: 3 Duration: 1s244ms
 [           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll (+2 others) [CacheMiss 4d0ec559942ec817c070a1c8a144950f00000000000000000000000000000006]
 [223/231    1s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll (+2 others)
 ##### CommandLine
@@ -719,7 +696,7 @@ DOTNET_MULTILEVEL_LOOKUP=0
 Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(7,42): error CS0234: The type or namespace name 'RecommendationView' does not exist in the namespace 'Unity.Multiplayer.Center.Window.UI' (are you missing an assembly reference?)
 
 Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(18,9): error CS0246: The type or namespace name 'RecommendationView' could not be found (are you missing a using directive or an assembly reference?)
-*** Tundra build failed (2.14 seconds), 19 items updated, 231 evaluated
+*** Tundra build failed (1.21 seconds), 1 items updated, 231 evaluated
 ## Script Compilation Error for: Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll (+2 others)
 ## CmdLine: "C:\Program Files\Unity\Editor\Data\DotNetSdk\dotnet.exe" exec "C:/Program Files/Unity/Editor/Data/DotNetSdk/sdk/8.0.318/Roslyn/bincore/csc.dll" /nostdlib /noconfig /shared "@Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp" "@Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp2"
 ## Output:
@@ -728,9 +705,9 @@ Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\Multiplaye
 
 Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(7,42): error CS0234: The type or namespace name 'RecommendationView' does not exist in the namespace 'Unity.Multiplayer.Center.Window.UI' (are you missing an assembly reference?)
 Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(18,9): error CS0246: The type or namespace name 'RecommendationView' could not be found (are you missing a using directive or an assembly reference?)
-AssetDatabase: script compilation time: 5.141033s
+AssetDatabase: script compilation time: 1.493802s
 Total cache size 43780924
-Total cache size after purge 43780924, took 00:00:00.0468978
+Total cache size after purge 43780924, took 00:00:00.0385114
 [ScriptCompilation] Requested script compilation because: Exiting safe mode
 Starting: C:\Program Files\Unity\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
 WorkingDir: C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/New Unity Project
@@ -742,21 +719,21 @@ Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\Multiplaye
 
 Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(7,42): error CS0234: The type or namespace name 'RecommendationView' does not exist in the namespace 'Unity.Multiplayer.Center.Window.UI' (are you missing an assembly reference?)
 Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(18,9): error CS0246: The type or namespace name 'RecommendationView' could not be found (are you missing a using directive or an assembly reference?)
-ExitCode: 3 Duration: 0s187ms
-[209/231    0s] CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll
+ExitCode: 3 Duration: 0s184ms
+[209/231    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.UI.pdb
 [210/231    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.pdb
 [211/231    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.dll
 [212/231    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.UI.dll
-[213/231    0s] CopyFiles Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.004.pdb
-[214/231    0s] CopyFiles Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.004.dll
-[215/231    0s] CopyFiles Library/ScriptAssemblies/UnityEngine.UI.pdb
-[216/231    0s] CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.pdb
-[217/231    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.dll
-[218/231    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.pdb
-[219/231    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.Analytics.dll
-[220/231    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.Analytics.pdb
-[221/231    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
-[222/231    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+[213/231    0s] CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.pdb
+[214/231    0s] CopyFiles Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.004.pdb
+[215/231    0s] CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll
+[216/231    0s] CopyFiles Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.004.dll
+[217/231    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+[218/231    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.dll
+[219/231    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+[220/231    0s] CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+[221/231    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.Analytics.pdb
+[222/231    0s] CopyFiles Library/ScriptAssemblies/UnityEditor.UI.Analytics.dll
 [           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll (+2 others) [CacheMiss 4d0ec559942ec817c070a1c8a144950f00000000000000000000000000000006]
 [223/231    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll (+2 others)
 ##### CommandLine
@@ -1261,107 +1238,89 @@ Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\Multiplaye
 Library\PackageCache\com.unity.multiplayer.center@b860850997d0\Editor\MultiplayerCenterWindow\RecommendationTabView.cs(18,9): error CS0246: The type or namespace name 'RecommendationView' could not be found (are you missing a using directive or an assembly reference?)
 *** Tundra build failed (0.17 seconds), 15 items updated, 231 evaluated
 Total cache size 43780924
-Total cache size after purge 43780924, took 00:00:00.0234439
+Total cache size after purge 43780924, took 00:00:00.0238377
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.298 seconds
-Domain Reload Profiling: 602ms
-	BeginReloadAssembly (134ms)
-		DisableScriptedObjects (16ms)
-		CreateAndSetChildDomain (24ms)
+- Finished resetting the current domain, in  0.301 seconds
+Domain Reload Profiling: 619ms
+	BeginReloadAssembly (166ms)
+		DisableScriptedObjects (30ms)
+		CreateAndSetChildDomain (41ms)
 	RebuildCommonClasses (5ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (130ms)
-		LoadAssemblies (114ms)
-		AnalyzeDomain (12ms)
-			TypeCache.Refresh (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (93ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (3ms)
 			BuildScriptInfoCaches (4ms)
-	FinalizeReload (299ms)
+	FinalizeReload (303ms)
 		SetupLoadedEditorAssemblies (0ms)
 			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (62ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			ProcessInitializeOnLoadAttributes (60ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (3ms)
 		AwakeInstancesAfterBackupRestoration (24ms)
 Starting new worker id: 0 with log in C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/New Unity Project/Logs/AssetImportWorkerHW0.log
 
-Asset Pipeline Refresh (id=f38da411d1250f241b3af6f53356c0b2): Total: 17.682 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+Asset Pipeline Refresh (id=a0f500cef17250b458e6a7b6d8cc38f5): Total: 11.233 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
 	(Values over 0.05ms)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=10619 ms
-		Asset DB Callback time: managed=46 ms, native=525 ms
-		Scripting: domain reloads=1, domain reload time=1340 ms, compile time=5143 ms, other=6 ms
+		Asset DB Process Time: managed=0 ms, native=8729 ms
+		Asset DB Callback time: managed=13 ms, native=8 ms
+		Scripting: domain reloads=1, domain reload time=979 ms, compile time=1496 ms, other=6 ms
 		Project Asset Count: scripts=210, non-scripts=167
-		Asset File Changes: new=0, changed=0, moved=0, deleted=6
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
-	InvokePackagesCallback: 520.515ms
-	ApplyChangesToAssetFolders: 0.354ms
-	Scan: 49.063ms
-	Collect global state as custom dependencies: 8.634ms
-	OnSourceAssetsModified: 0.482ms
-	CategorizeScriptCompilationAssets: 0.736ms
-	ProcessAssetsWithTransientArtifactChanges: 3.923ms
-	CategorizeAssets: 1.938ms
-	CompileScripts: 5143.205ms
-	ImportOutOfDateAssets: 308.558ms (300.590ms without children)
-		UnloadImportedAssets: 0.092ms
-		ImportSchedulerStart: 7.830ms
-	PostProcessAllAssets: 47.578ms
-		VCAutoAddAssetPostprocess 1.475ms
-		WindowTitlePostprocess 0.123ms
-		MonoPostProcessAllAssets: 45.539ms
-			StyleCatalogPostProcessor.OnPostprocessAllAssets 12.520ms
-			AssetPostprocessor.OnPostprocessAllAssets 9.362ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.629ms
-			AssetChangedListener.OnPostprocessAllAssets 4.581ms
-			BuilderAssetPostprocessor.OnPostprocessAllAssets 3.245ms
-			SyncVS.PostprocessSyncProject 1.137ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.057ms
-			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.754ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 0.582ms
-			TextAssetPostProcessor.OnPostprocessAllAssets 0.360ms
-			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.343ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.233ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.188ms
-			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.179ms
-			SpeedTreePostProcessor.OnPostprocessAllAssets 0.171ms
-			AudioMixerPostprocessor.OnPostprocessAllAssets 0.168ms
-			AssetEvents.OnPostprocessAllAssets 0.158ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.103ms
-			ConfigAssetsTracker.OnPostprocessAllAssets 0.078ms
-			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.076ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.062ms
-	PostAssetChangesProfiler: 4.369ms
-	UnloadStreamsBegin: 1.306ms
-	GenerateScriptTypeHashes: 0.295ms
-	GenerateScriptTypeSerializationHashes: 0.650ms
-	Untracked: 11586.798ms
+	InvokePackagesCallback: 9.550ms
+	ApplyChangesToAssetFolders: 0.415ms
+	Scan: 41.136ms
+	Collect global state as custom dependencies: 6.880ms
+	CategorizeScriptCompilationAssets: 0.732ms
+	ProcessAssetsWithTransientArtifactChanges: 3.927ms
+	CategorizeAssets: 1.973ms
+	CompileScripts: 1495.944ms
+	ImportOutOfDateAssets: 312.363ms (303.983ms without children)
+		UnloadImportedAssets: 0.091ms
+		ImportSchedulerStart: 8.253ms
+	PostProcessAllAssets: 13.155ms
+		MonoPostProcessAllAssets: 13.110ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.908ms
+			SyncVS.PostprocessSyncProject 0.999ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.655ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.548ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.166ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.151ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.109ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.054ms
+	UnloadStreamsBegin: 1.374ms
+	GenerateScriptTypeHashes: 0.332ms
+	GenerateScriptTypeSerializationHashes: 0.773ms
+	Untracked: 9341.827ms
 
 Application.AssetDatabase Initial Refresh End
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Scanning for USB devices : 3.300ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Scanning for USB devices : 3.377ms
 Initializing Unity extensions:
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-New Unity Project
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Assets/Scenes/Scene.unity'
-	Deserialize:            42.685 ms
-	Integration:            91.724 ms
-	Integration of assets:  1.818 ms
-	Thread Wait Time:       0.350 ms
-	Total Operation Time:   136.577 ms
+	Deserialize:            17.048 ms
+	Integration:            37.719 ms
+	Integration of assets:  1.767 ms
+	Thread Wait Time:       0.441 ms
+	Total Operation Time:   56.975 ms
 Unloading 434 unused Assets / (0.6 MB). Loaded Objects now: 1385.
-Memory consumption went from 221.6 MB to 221.0 MB.
-Total: 4.076600 ms (FindLiveObjects: 0.068100 ms CreateObjectMapping: 0.022300 ms MarkObjects: 2.920300 ms  DeleteObjects: 1.064100 ms)
+Memory consumption went from 221.5 MB to 220.9 MB.
+Total: 4.411400 ms (FindLiveObjects: 0.064400 ms CreateObjectMapping: 0.023500 ms MarkObjects: 3.037400 ms  DeleteObjects: 1.284600 ms)
 
 [LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
-Worker ready: AssetImportWorkerHW0 0
 [LAYOUT] About to save layout C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\UserSettings\Layouts\default-6000.dwlt
 [LAYOUT] About to save layout C:/Users/451495.LEEDS-ART/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
 [MODES] ModeService[default].InitializeCurrentMode
@@ -1369,64 +1328,237 @@ Worker ready: AssetImportWorkerHW0 0
 This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
 <RI> Initializing input.
 <RI> Input initialized.
-[Project] Loading completed in 28.094 seconds
-	Project init time: 				48.625 seconds
+[Project] Loading completed in 13.284 seconds
+	Project init time: 				26.791 seconds
 		Template init time: 		0.000 seconds
 		Package Manager init time: 		0.003 seconds
-		Asset Database init time: 		0.294 seconds
-		Global illumination init time: 	0.019 seconds
-		Assemblies load time: 			7.631 seconds
+		Asset Database init time: 		0.144 seconds
+		Global illumination init time: 	0.002 seconds
+		Assemblies load time: 			0.655 seconds
 		Unity extensions init time: 	0.001 seconds
-		Asset Database refresh time: 	17.682 seconds
-	Scene opening time: 			0.737 seconds
-##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1795428082589,"processId":14920,"projectLoad":28.0936487,"projectInit":48.624880278,"templateInit":0.0,"packageManagerInit":0.0027061,"assetDatabaseInit":0.293597,"globalIlluminationInit":0.0191911,"assembliesLoad":7.6306075,"unityExtensionsInit":0.0009319,"assetDatabaseRefresh":17.6824146,"sceneOpening":0.7370631}
-##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1795428082589,"processId":14920,"editorVersion":"6000.5.11f1 (5c3a1087d8e4)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
-Asset Pipeline Refresh (id=d613787fa1f7b1443b418eef1a30ad87): Total: 0.012 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-[MODES] ModeService[default].LoadModes
-Dynamic Batching is deprecated and will be removed in a future release. Use GPU Instancing instead. Disable Dynamic Batching in Project Settings > Player > Other Settings to remove this warning.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEditor.PlayerSettingsBatchingWarning:WarnIfDynamicBatchingEnabled ()
-UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
-
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-Created GICache directory at C:/Users/451495.LEEDS-ART/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.008s, timestamps: [50.231 - 50.240]
-Asset Pipeline Refresh (id=b675a738a06aca244b28d40b568f3964): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+		Asset Database refresh time: 	11.234 seconds
+	Scene opening time: 			0.574 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1795428383950,"processId":27956,"projectLoad":13.284498000000001,"projectInit":26.790816885,"templateInit":0.0,"packageManagerInit":0.0030069,"assetDatabaseInit":0.1437881,"globalIlluminationInit":0.002133,"assembliesLoad":0.6547225,"unityExtensionsInit":0.0014393,"assetDatabaseRefresh":11.2335482,"sceneOpening":0.5738343}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1795428383950,"processId":27956,"editorVersion":"6000.5.11f1 (5c3a1087d8e4)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=3bb77cdf2ddc20d49a17f0fb88059ec1): Total: 0.022 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Worker ready: AssetImportWorkerHW0 0
 Start Indexing on Editor startup
 [Indexing] Starting Initial Indexing for Assets
-Starting new worker id: 1 with log in C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/New Unity Project/Logs/AssetImportWorkerHW1.log
-[Worker0] Imported GUID: 87f4df18971add842ab00ee23b0e29ae - Path: Assets/Scripts/Scene01/Scene01Events.cs - Importer: PreviewImporter -> (ImportResultId: 'f161dde50f60d661b52c24278776576b') in 0.0067326 seconds
-EditorHelper: Unable to use the external script editor. Trying the internal script editor now.
-Worker ready: AssetImportWorkerHW1 1
-TrimDiskCacheJob: Current cache size 0mb
-Asset Pipeline Refresh (id=56b7ed023d5698f47ae1b197c658e9cd): Total: 0.012 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-[Worker0] Imported GUID: 492825280222a28449aa034bcc7344f6 - Path: Assets/Scripts/TextCreator.cs - Importer: PreviewImporter -> (ImportResultId: '7da97e23433c24c8bb6a8f54b6e189c8') in 0.0016571 seconds
-EditorHelper: Unable to use the external script editor. Trying the internal script editor now.
-Asset Pipeline Refresh (id=696a262504acf034dabae262a014cd69): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-[Worker0] Imported GUID: df0857f6a11054383be91b1f8e1b5800 - Path: Packages/com.unity.multiplayer.center/package.json - Importer: PreviewImporter -> (ImportResultId: 'c4ed96ef5756384fce85a522bef228ab') in 0.0112987 seconds
-[Worker0] Imported GUID: 319b8889f363f5947acf209c17a94149 - Path: Packages/com.unity.ugui/package.json - Importer: PreviewImporter -> (ImportResultId: '96e208099ef90cd7ef6f7f0dd68399f3') in 0.0015889 seconds
+Created GICache directory at C:/Users/451495.LEEDS-ART/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.006s, timestamps: [28.048 - 28.054]
 [Licensing::Client] Successfully resolved entitlement details
-Asset Pipeline Refresh (id=6f94917815661bb47aca5a5824e3a4f4): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=d3c02ec93adedbf41820e48c000c9578): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Request Asset Garbage Collect because used heap size increased from 221.3 MB to 479.4 MB, exceeding the threshold of 256.0 MB.
-Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 58 unused Assets / (17.1 MB). Loaded Objects now: 2461.
-Memory consumption went from 478.7 MB to 461.6 MB.
-Total: 9.949200 ms (FindLiveObjects: 0.146000 ms CreateObjectMapping: 0.021700 ms MarkObjects: 7.108600 ms  DeleteObjects: 2.672200 ms)
+[Licensing::Client] Successfully resolved entitlement details
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=bda42f2bc2c234047b2236c65c0afd10): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+EditorHelper: Unable to use the external script editor. Trying the internal script editor now.
+Asset Pipeline Refresh (id=ae07a67245264d74e8209a9cbc3fbcb6): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=cedfd97e23ed9d246815a6b6d7442ef4): Total: 0.003 seconds - Initiated by RefreshV2(ForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+Directory monitor buffer overflow for 'Packages'Next Refresh will do full enumeration.[Package Manager] Done resolving packages in 0.07 seconds
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 37 packages:
+  Built-in packages:
+    com.unity.ugui@2.5.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.ugui@298cd2a5b9a6)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\Library\PackageCache\com.unity.modules.hierarchycore)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.00 seconds
+[ScriptCompilation] Requested script compilation because: Assembly Definition File(s) changed
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+Starting: C:\Program Files\Unity\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/New Unity Project
+ExitCode: 4 Duration: 0s154ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+[           0s] Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll (+2 others) [CacheMiss b5e9069726c15dfcfc56a5dedabed2f500000000000000000000000000000006]
+*** Tundra requires additional run (0.13 seconds), 1 items updated, 198 evaluated
+Starting: C:\Program Files\Unity\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/New Unity Project
+ExitCode: 0 Duration: 0s165ms
+Starting: C:\Program Files\Unity\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/451495.LEEDS-ART/Documents/GitHub/Reverse_Dating_Sim/Rapid_Prototype_2/New Unity Project
+ExitCode: 0 Duration: 0s480ms
+Finished compiling graph: 216 nodes, 1594 flattened edges (1518 ToBuild, 14 ToUse), maximum node priority 94
+[           0s] Delete 12 artifact files that are no longer in use. (like Library\Bee\artifacts\1900b0aE.dag\Unity.Multiplayer.Center.Common.rsp)
+[182/213    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
+[184/213    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp
+[209/213    0s] MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm
+[210/213    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[211/213    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[212/213    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (0.46 seconds), 6 items updated, 213 evaluated
+Total cache size 43780924
+Reloading assemblies after forced synchronous recompile.
+Total cache size after purge 43780924, took 00:00:00.0452990
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.965 seconds
+Domain Reload Profiling: 1354ms
+	BeginReloadAssembly (278ms)
+		DisableScriptedObjects (87ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (70ms)
+		LoadAssemblies (68ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (4ms)
+			BuildScriptInfoCaches (6ms)
+	FinalizeReload (966ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (59ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (462ms)
 
-MonoPathRemapper: Attempts to remap: 5608; Successful remaps: 1520
+Asset Pipeline Refresh (id=80d8687eaae375345a7904f0ac6b0bf4): Total: 2.525 seconds - Initiated by RefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1066 ms
+		Asset DB Callback time: managed=29 ms, native=83 ms
+		Scripting: domain reloads=1, domain reload time=403 ms, compile time=942 ms, other=0 ms
+		Project Asset Count: scripts=192, non-scripts=123
+		Asset File Changes: new=0, changed=0, moved=0, deleted=119
+		Scan Filter Count: 1
+	InvokePackagesCallback: 79.115ms
+	ApplyChangesToAssetFolders: 0.175ms
+	Scan: 69.499ms
+	Collect global state as custom dependencies: 0.683ms
+	OnSourceAssetsModified: 0.731ms
+	CategorizeScriptCompilationAssets: 0.181ms
+	ProcessAssetsWithTransientArtifactChanges: 0.597ms
+	CategorizeAssets: 1.018ms
+	CompileScripts: 941.998ms
+	ImportOutOfDateAssets: 968.481ms (966.502ms without children)
+		CollectScriptTypesHashes: 0.250ms
+		ReloadNativeAssets: 0.195ms
+		UnloadImportedAssets: 1.123ms
+		ImportSchedulerStart: 0.621ms
+	PostProcessAllAssets: 29.937ms
+		AssemblyValidation.PostprocessAllAssets 0.735ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 0.053ms
+		MonoPostProcessAllAssets: 27.347ms
+			AssetChangedListener.OnPostprocessAllAssets 5.641ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.679ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 3.263ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.925ms
+			AssetPostprocessor.OnPostprocessAllAssets 1.824ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.802ms
+			SyncVS.PostprocessSyncProject 0.768ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.631ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.457ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.357ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.228ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.185ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.169ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.141ms
+			AssetEvents.OnPostprocessAllAssets 0.133ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.120ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.107ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.093ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.093ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.089ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.083ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.055ms
+	PostAssetChangesProfiler: 4.409ms
+	PersistCurrentRevisions: 0.113ms
+	GenerateScriptTypeHashes: 0.424ms
+	GenerateScriptTypeSerializationHashes: 0.856ms
+	Untracked: 425.588ms
+
+[MODES] ModeService[default].LoadModes
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=90194d17e8bcf1644978f5865e0f8d4e): Total: 0.010 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+MonoPathRemapper: Attempts to remap: 7232; Successful remaps: 1482
 Serialized file version minimum: 23, current 23
 [LAYOUT] About to save layout C:\Users\451495.LEEDS-ART\Documents\GitHub\Reverse_Dating_Sim\Rapid_Prototype_2\New Unity Project\UserSettings\Layouts\default-6000.dwlt
 [LAYOUT] About to save layout C:/Users/451495.LEEDS-ART/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
-AcceleratorClientConnectionCallback - disconnected - :0
-Importing 'GUID: 00000000000000004000000000000000 - Path: ProjectSettings/ProjectSettings.asset' with importer (LibraryAssetImporter)
-Imported 'GUID: 00000000000000004000000000000000' -> (Import Result ID: '38814a4707681c74909df1811f8bd876') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=276a810dac73e1f29404d5e5f692e214 DependenciesID=4f07617681b6b9b53b8c2560bc30e0de StaticDependenciesID=647bf4af9dc7aac39de01210a43fea9b 
-Asset Pipeline Refresh (id=faad5afad73aac340bc2bc58a61ce558): Total: 0.026 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 [Physics::Module] Cleanup current backend.
 [Physics::Module] Id: 0xf2b8ea05
 Input System module state changed to: ShutdownInProgress.
@@ -1441,4 +1573,4 @@ CodeReloadManager destroyed
 Checking for leaked weakptr:
   Found no leaked weakptrs.
 [Package Manager] Server process was shutdown
-##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1795428350282,"processId":14920,"allocatedMemory":47984496,"memoryLabels":[{"Default":189798},{"Permanent":15516},{"NewDelete":69981},{"Thread":4206200},{"Manager":51432},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":851408},{"Material":24},{"GfxDevice":62744},{"GfxThread":3072},{"Animation":15544},{"Audio":1544},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":132864},{"Input":42840},{"JobScheduler":256},{"TextLib":46450},{"Mono":48},{"ScriptingNativeRuntime":707732},{"BaseObject":1621960},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":57507},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":9873},{"StaticString":3808},{"Utility":2676078},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":14869},{"ScriptManager":96},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"CloudService":7208},{"WebRequest":8069},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33055328},{"Camera":23593},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":728},{"Hierarchy":1176},{"UIElements":1459512},{"CoreStats":13688},{"Identifiers":6768},{"Gui":1070152},{"EditorUtility":290394},{"VersionControl":8},{"Undo":931},{"AssetDatabase":770411},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":31010},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"HubClient":848},{"LocalIPC":350},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3496},{"Windowing":456},{"Licensing":12758},{"AssetReference":32},{"IPCStream":7664}]}
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1795428507483,"processId":27956,"allocatedMemory":47955949,"memoryLabels":[{"Default":196988},{"Permanent":15516},{"NewDelete":67541},{"Thread":4206200},{"Manager":50920},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":851081},{"Material":24},{"GfxDevice":154472},{"GfxThread":3072},{"Animation":30136},{"Audio":1544},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":118144},{"Input":42840},{"JobScheduler":256},{"TextLib":66379},{"Mono":48},{"ScriptingNativeRuntime":674964},{"BaseObject":1621960},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":4001},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":10001},{"StaticString":3808},{"Utility":2676078},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":363948},{"ScriptManager":48},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"CloudService":7352},{"WebRequest":7473},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33060080},{"Camera":4553},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":728},{"Hierarchy":1176},{"UIElements":1106376},{"CoreStats":13688},{"Identifiers":6768},{"Gui":1070099},{"EditorUtility":252804},{"VersionControl":8},{"Undo":931},{"AssetDatabase":783650},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":31010},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"HubClient":848},{"LocalIPC":350},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3496},{"Windowing":456},{"Licensing":12758},{"AssetReference":32},{"IPCStream":7664}]}
